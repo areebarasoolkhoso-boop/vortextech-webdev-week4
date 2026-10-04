@@ -73,7 +73,4 @@ vercel.json
 - PokéAPI
 - Deployed on Vercel
 
-## Author
-
-Areeba Rasool Khoso
-Vortex Tech Web Development Internship Track, Week 4
+Vortex Tech Web Development Internship — Week 4_React App
