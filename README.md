@@ -8,7 +8,7 @@ Pokémon Explorer is a React application that fetches live data from a public AP
 
 ## Live Demo
 
-vortextech-webdev-week4-tau.vercel.app
+(https://vortextech-webdev-week4-tau.vercel.app)
 
 ## API Used
 
