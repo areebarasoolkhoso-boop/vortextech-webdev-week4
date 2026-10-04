@@ -1,16 +1,29 @@
-# React + Vite
+# Pokémon Explorer (Vortex Tech Week 4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React app that fetches live data from the PokéAPI and displays it in a responsive grid, with a detail page for each Pokémon.
 
-Currently, two official plugins are available:
+## Live Demo
+https://YOUR-APP.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## API Used
+[PokéAPI](https://pokeapi.co/) - free public API, no API key required.
 
-## React Compiler
+- List: `https://pokeapi.co/api/v2/pokemon?limit=24`
+- Detail: `https://pokeapi.co/api/v2/pokemon/{id}`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Home page showing 24 Pokémon in a responsive CSS Grid
+- Detail page (`/pokemon/:id`) with height, weight, types and abilities
+- Routing with React Router (`/` and `/pokemon/:id`)
+- Loading spinner while data is being fetched
+- Friendly error message if the request fails
+- Mobile friendly layout
 
-## Expanding the Oxlint configuration
+## Run Locally
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+React, Vite, React Router, CSS
